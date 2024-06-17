@@ -1,12 +1,12 @@
 import 'antd/dist/antd.min.css';
 import './App.css';
-import FormAnt from './Form';
+import PaginationSortFilterAnt from './PaginationSortFilter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FormAnt></FormAnt>
+        <PaginationSortFilterAnt />
       </header>
     </div>
   );
