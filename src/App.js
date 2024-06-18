@@ -1,12 +1,12 @@
 import 'antd/dist/antd.min.css';
 import './App.css';
-import PaginationSortFilterAnt from './PaginationSortFilter';
+import SelectRowTableAnt from './SelectRowTable';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <PaginationSortFilterAnt />
+        <SelectRowTableAnt />
       </header>
     </div>
   );
